@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export const Home = () => {
   return (
 <div className=" bg-gradient-to-b from-black via-black to-transparent bg-no-repeat bg-center bg-cover min-h-screen text-white py-48 px-24 flex flex-col  items-start  " style={{backgroundImage: 'url("./images/home-hero.png")'}}>
-
     <h1 className="py-4 font-bold text-2xl leading-7">You got the travel plans, we got the travel vans.</h1>
+
     <p className='py-4 leading-6'>
       Add adventure to your life by joining the #instaVan movement. Rent the
       perfect van to make your perfect road trip.
