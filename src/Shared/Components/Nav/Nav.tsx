@@ -12,6 +12,7 @@ export const Nav = () => {
         <div className="flex space-x-4 ">
           <Link to="/" className="text-xl">Home</Link>
           <Link to="/about" className="text-xl">About</Link>
+          <Link to="/vans" className="text-xl">Vans</Link>
         </div>
       </div>
     </nav>
