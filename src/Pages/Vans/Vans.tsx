@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useGetVansQuery } from '../../Store/services/Vans';
-import Van from './Components/Van/Van';
 
 export const Vans = () => {
   const { data, isLoading } = useGetVansQuery([]);
