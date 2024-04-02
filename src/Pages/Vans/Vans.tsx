@@ -2,7 +2,7 @@ import { useGetVansQuery } from '../../Store/services/Vans';
 
 export const Vans = () => {
 
-	const {data, error, isLoading} = useGetVansQuery( [] )
+	const {data,  isLoading} = useGetVansQuery( [] )
 
 
 	return (
