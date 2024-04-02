@@ -19,8 +19,19 @@ export const vansApi=createApi({
                 providesTags: ['Vans']
             }
         
+        ) ,
+        getVan:builder.query<any,any>(
+            {
+                query:(id)=>{ return {
+                url:   `/vans/${id}`,
+                method:'GET'
+                        }
+                    },
+                providesTags: ['Vans']
+            }
+        
         )
     })
 })
 
-export const {useGetVansQuery} = vansApi
+export const {useGetVansQuery ,useGetVanQuery} = vansApi
