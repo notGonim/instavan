@@ -10,7 +10,7 @@ export const Nav = () => {
         <Link to='/'  className="ml-2 text-2xl font-bold">InstaVan</Link>
         </div>
         <div className="flex space-x-4 ">
-          {/* <Link to="/" className="text-xl">Home</Link> */}
+          <Link to="/host" className="text-xl">Host</Link>
           <Link to="/about" className="text-xl">About</Link>
           <Link to="/vans" className="text-xl">Vans</Link>
         </div>
